@@ -4,5 +4,7 @@
     <string name="app_name">Spielblock</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="player1_name">Wiebke</string>
+    <string name="player2_name">Stefan</string>
 
 </resources>
