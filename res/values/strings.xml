@@ -6,5 +6,20 @@
     <string name="menu_settings">Settings</string>
     <string name="player1_name">Wiebke</string>
     <string name="player2_name">Stefan</string>
+    <string name="menu_newgame">New Game</string>
+    <string name="add_results">Ergebnisse eintragen</string>
+    <string name="title_activity_new_game">Spieleinstellungen</string>
+    <string name="start_points">Startpunktzahl</string>
+    <string name="calculation">Rechenart</string>
+    <string name="radio_calculation">hochzählen</string>
+    <string name="radio_lower">runterzählen</string>
+    <string name="radio_higher">hochzählen</string>
+    <string name="calculate_results">Ergebnisse verrechnen</string>
+    <string name="every_round">nach jeder Runde</string>
+    <string name="after_game">am Ende</string>
+    <string name="next">Weiter</string>
+    <string name="title_activity_add_player">Spieler</string>
+    <string name="button_done">Fertig</string>
+    <string name="add_player">Spieler hinzufügen</string>
 
 </resources>

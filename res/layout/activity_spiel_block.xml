@@ -21,8 +21,8 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/player_padding"
-                android:paddingRight="@dimen/player_padding"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="@string/player2_name"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -30,8 +30,8 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/player_padding"
-                android:paddingRight="@dimen/player_padding"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:text="@string/player1_name"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -59,5 +59,14 @@
         </TableRow>
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/add_results" />
 
 </RelativeLayout>

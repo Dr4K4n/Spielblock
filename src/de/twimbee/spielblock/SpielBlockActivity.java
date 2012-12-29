@@ -2,9 +2,11 @@ package de.twimbee.spielblock;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.MenuItem;
 
-public class SpielBlock extends Activity {
+public class SpielBlockActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -19,4 +21,12 @@ public class SpielBlock extends Activity {
 		return true;
 	}
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		if(item.getItemId() == R.id.menu_newgame) {
+			Intent intent = new Intent(this, NewGameActivity.class);
+			startActivity(intent);
+		}
+		return super.onOptionsItemSelected(item);
+	}
 }

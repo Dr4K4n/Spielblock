@@ -1,0 +1,5 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/add_player" android:showAsAction="ifRoom" android:icon="@drawable/content_new" android:title="@string/add_player"></item>
+
+</menu>
